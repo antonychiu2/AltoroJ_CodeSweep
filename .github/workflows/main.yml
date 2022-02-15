@@ -22,5 +22,7 @@ jobs:
         with:
           asoc_key: ${{secrets.ASOC_KEY}}
           asoc_secret: ${{secrets.ASOC_SECRET}}
+          status: action_required
+
     env: 
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
